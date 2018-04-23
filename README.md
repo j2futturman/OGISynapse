@@ -1,11 +1,7 @@
 # OGI-Synapse
-<a href="http://ogisynapse.com"><strong>OGI Synapse</strong></a> is an "off-the-grid-internet" concept using wireless mesh-network and self sustainable power source. We are an experimental open group that build upon the the Commotion and the Serval Project.
-
+<a href="http://ogisynapse.com"><strong>OGI Synapse</strong></a> is a community networking concept using wireless mesh-networking 
 We join the community of wireless mesh networking to further explore, discover and contribute ideas.
-
-We aim to come up with an "Off-the-Grid-Internet"solution.  An alternative method of connectivity during the aftermath of a major calamity that had resulted to disruption of electricity, communications and internet services.
-
-Connecting the unconnected and to have "Connectivity off-the-grid"  that is our goal at OGIsynapse .
+To connect  the unconnected and the under-served is one of our goals in ogisynapse.
 
 
 
