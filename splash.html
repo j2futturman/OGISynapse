@@ -1,0 +1,224 @@
+<html>
+<head>
+	<title>$gatewayname Community Network</title>
+	<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="login-box.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+ /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style inputs, password */
+
+input[type=password], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: center;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: center;
+  width: 20%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.ctr {
+float:center;
+margin-top: 50px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+
+
+</style>
+    
+</head>
+
+<div class="container">
+<body bgcolor="#DDDDDD" text="#000000">
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+	<td align="center"><h2>Welcome to the $gatewayname Community Portal</h2></td>
+</tr>
+
+<tr>
+	<td align="center" height="120">
+<!--
+	A client is authenticated by requesting the page $authtarget.
+	So, href to it here, with an img or link text the user can click on.
+	Also, note that any images you reference must reside in the
+	subdirectory that is the value of $imagesdir (default: "images").
+
+	Available variables:
+	error_msg: $error_msg
+	gatewayname: $gatewayname
+	tok: $tok
+	redir: $redir
+	authaction: $authaction
+	denyaction: $denyaction
+	authtarget: $authtarget
+	clientip: $clientip
+	clientmac: $clientmac
+	gatewaymac: $gatewaymac
+	nclients: $nclients
+	maxclients: $maxclients
+	uptime: $uptime
+	imagesdir: $imagesdir
+	pagesdir: $pagesdir
+
+	Variables that can be passed back via HTTP GET.
+	Just append them to the authentication link:
+	nodoguser
+	nodogpass
+	info
+	voucher
+-->
+	<a href="$redir">
+	<img src="$imagesdir/splash.jpg" width="160" height="142" border="0"
+		alt="Click to enter" title="Click to enter">
+	</a>
+<br>
+<br>
+
+
+
+
+<form method='GET' action='$authaction'>
+<input type='hidden' name='tok' value='$tok'>
+<input type='hidden' name='redir' value='$redir'>
+
+<div class="row">
+
+<div class="col-25">
+<label for="fname">Username</label>
+</div>
+
+<div class="col-75">
+<input type='text' name='nodoguser' value='' >
+ </div>
+
+</div>
+
+
+<div class="row">
+
+<div class="col-25">
+<label for="fname">Password</label>
+</div>
+
+<div class="col-75">
+<input type='password' name='nodogpass' value='' >
+ </div>
+
+</div>
+
+<br>
+<br>
+
+<div class="row">
+<input type='submit' value='Enter'>
+
+</div>
+
+
+	
+<div class="ctr">
+Copyright (C) 2018.This software is released under the GNU GPL license
+</div>
+
+</form>
+
+
+</tr>
+
+</table>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>	
+	
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+ 
