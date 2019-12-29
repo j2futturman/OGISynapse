@@ -1,7 +1,7 @@
 # OGI-Synapse
 Codes and documenations for the OGIsynapse project
 # OGI-Synapse
-<a href="http://ogisynapse.com"><strong>OGI Synapse</strong></a> is a community networking concept using wireless mesh-networking 
+<a href="http://ogisynapse.appsvertex.com"><strong>OGISynapse</strong></a> is a community networking concept using wireless mesh-networking 
 We join the community of wireless mesh networking to further explore, discover and contribute ideas.
 To connect  the unconnected and the under-served is one of our goals in ogisynapse.
 
